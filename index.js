@@ -1,8 +1,7 @@
-function createNames(firstName,lastName){
-    return {
-        firstName : firstName,
-        lastName : lastName
-    };
+const createPerson = require('./people');
 
-}
-module.exports = createNames;
+const person = createPerson();
+console.log(person);
+
+
+
